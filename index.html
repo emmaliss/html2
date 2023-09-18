@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Liss HTML2</title>
+	<style>
+		.leftCol{background-color:cadetblue}
+		
+		#chart{color:steelblue; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+	</style>
+</head>
+	<body>
+	<h1>My Family</h1>
+	<hr>
+	<h2>How many people are in the Liss family?</h2>
+	<p>In my family, there are <b style="color:darkgreen">seven</b> people. Those seven people include my two parents, myself, and my <i style="font-size:24px">four</i> brothers.</p>
+	<h2 id="chart">Liss Family Chart</h2>
+		<table style="width:35%; border:thin solid">
+			<tr align="left">
+				<th>Name</th>
+				<th>Birthday</th>
+			</tr>
+			<tr>
+				<td class="leftCol">Ollie Liss</td>
+				<td>October 1</td>
+			</tr>
+			<tr>
+				<td class="leftCol">Katharine Liss</td>
+				<td>February 13</td>
+			</tr>
+			<tr>
+				<td class="leftCol">Austin Liss</td>
+				<td>June 30</td>
+			</tr>
+			<tr>
+				<td class="leftCol">Emma Liss</td>
+				<td>August 17</td>
+			</tr>
+			<tr>
+				<td class="leftCol">Gavin Liss</td>
+				<td>May 12</td>
+			</tr>
+			<tr>
+				<td class="leftCol">Jake Liss</td>
+				<td>June 14</td>
+			</tr>
+			<tr>
+				<td class="leftCol">Luke Liss</td>
+				<td>June 27</td>
+			</tr>
+	</table>
+	<br>
+	<h2>Where has the Liss family lived?</h2>
+		<p>Since I was born, the Liss family has lived in:</p>
+		<ul>
+			<li><a href="https://www.doylestownborough.net/">Doylestown, Pennsylvania</a></li>
+			<li id="cityname"></li>
+			<li>New Braunfels, Texas</li>
+			<li>Canton, Michigan</li>
+			<li><a href="sanantonio.html">San Antonio, Texas</a></li>
+		</ul>
+</body>
+	<script>
+		document.getElementById("cityname").innerHTML="Vero Beach, Florida"
+	</script>
+</html>
